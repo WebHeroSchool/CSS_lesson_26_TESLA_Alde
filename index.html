@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>TESLA</title>
 </head>
 <body>
-    <header>
+    <header class="head">
       <div class="wrap">
             <img class="logo" src="#" alt="TESLA"> 
-            <nav>
-                <ul>
-                    <li><a href="#">Model S</a></li>
-                    <li><a href="#">Model X</a></li>
-                    <li><a href="#">Model 3</a></li>
-                    <li><a href="#">Roadster</a></li>
-                    <li><a href="#">Energy</a></li>
-                </ul>
-                <a href="#">Магазин</a>
-                <a href="#">Войти</a>
+            <nav class="menu">
+                <a class="menu__item" href="#">Model S</a>
+                <a class="menu__item" href="#">Model X</a>
+                <a class="menu__item" href="#">Model 3</a>
+                <a class="menu__item" href="#">Roadster</a>
+                <a class="menu__item" href="#">Energy</a>
+                <a class="menu__item" href="#">Магазин</a>
+                <a class="menu__item" href="#">Войти</a>
                 <div class="btn__menu"></div>   
             </nav>
       </div>
@@ -30,11 +30,11 @@
                 <h1>Model S</h1>
                 <p>Добро пожаловать в будущее!</p>
             </section>
-            <section>
+            <section class="first__images">
                 <img src="#" alt="">
                 <img src="#" alt="">
             </section>      
-            <section>
+            <section class="first__info">
                 <article class="main__info-block">
                     <img src="#" alt="">
                     <h4>2,7 сек</h4>
@@ -45,9 +45,10 @@
                     <h4>632 км</h4>
                     <p>запас хода</p>
                 </article>
-                <article>
-                    <button class="main__btn">Тест драйв</button>
-                    <button class="main__btn">Заказать</button>
+                <article class="main__btn-block">
+                    <div class="main__btn-block__item"></div>
+                    <a class="main__link" href="#">Тест драйв</a>
+                    <button class="main__btn__item">Заказать</button>
                 </article>
             </section>    
             <div class="down">
@@ -57,15 +58,19 @@
             </div>        
         </div>
         <div class="second">
-            <section>
-                <div class="second__image"></div>
-                <div class="second__title"></div>
+            <section class="second__wrap">
+                <div class="second__wrap__image">
+                    <img src="#" alt="">
+                </div>
+                <div class="second__wrap__title">
+                    <h2>Model S</h2>
+                </div>
             </section>
-            <section>
+            <section class="second__wrap-info">
                 <div class="info">
-                    <article>
-                        <h3>Будущее вождения</h3>
-                        <p>
+                    <article class="info__block">
+                        <h3 class="info__block__title">Будущее вождения</h3>
+                        <p class="info__block__text">
                             Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей.Оснащенасовременным17-дюймовымсенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую сстудиейзвукозаписи, астеклянная крышаобеспечивает просторный интерьер для каждого пассажира.
                         </p>
                     </article>
@@ -84,73 +89,75 @@
                         <h4>894 литра</h4>
                         <p>Объем грузового пространства</p>
                     </article>
-                    <article>
-                        <button class="main__btn">Узнать больше</button>
+                    <article class="main__btn-block">
+                        <div class="main__info">i</div>
+                        <a class="main__link" href="#">Узнать больше</a>
                         <button class="main__btn">Заказать</button>
                     </article>
                 </div>
             </section>
         </div>
         <div class="third">
-            <section>
+            <section class="third__wrap__info">
                 <div class="info">
-                    <article>
-                        <h3>Самый безопасный автомобиль в мире</h3>
-                        <p>
+                    <article class="info__block">
+                        <h3 class="info__block__title">Самый безопасный автомобиль в мире</h3>
+                        <p class="info__block__text">
                             Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятноститравмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
                         </p>
                     </article>
-                    <article>
-                        <h3>Оценка защиты:</h3>
-                        <div>
-                            <p>спереди</p>
-                            <img src="#" alt="">
+                    <article class="info__wrap">
+                        <h3 class="info__wrap__title">Оценка защиты:</h3>
+                        <div class="info__wrap__item">
+                            <p class="info__wrap__item__text">спереди</p>
+                            <img class="info__wrap__item__img" src="#" alt="">
                         </div>
-                        <div>
-                            <p>сбоку</p>
-                            <img src="#" alt="">
+                        <div class="info__wrap__item">
+                            <p class="info__wrap__item__text">сбоку</p>
+                            <img class="info__wrap__item__img" src="#" alt="">
                         </div>
-                        <div>
-                            <p>сбоку<span>(стойка)</span></p>
-                            <img src="#" alt="">
+                        <div class="info__wrap__item">
+                            <p class="info__wrap__item__text">сбоку<span>(стойка)</span></p>
+                            <img class="info__wrap__item__img" src="#" alt="">
                         </div>
-                        <div>
-                            <p>водитель</p>
-                            <img src="#" alt="">
+                        <div class="info__wrap__item">
+                            <p class="info__wrap__item__text">водитель</p>
+                            <img class="info__wrap__item__img" src="#" alt="">
                         </div>
-                        <div>
-                            <p>пассажир</p>
-                            <img src="#" alt="">
+                        <div class="info__wrap__item">
+                            <p class="info__wrap__item__text">пассажир</p>
+                            <img class="info__wrap__item__img" src="#" alt="">
                         </div>
                     </article>
-                    <article>
-                        <img src="#" alt="">
-                        <h3>5 звезд</h3>
-                        <p>безопасности</p>
+                    <article class="third__info-block">
+                        <img class="third__info-block__img" src="#" alt="">
+                        <h3 class="third__info-block__title">5 звезд</h3>
+                        <p class="third__info-block__text">безопасности</p>
                     </article>
-                    <article>
-                        <button class="main__btn">Узнать больше</button>
+                    <article class="main__btn-block">
+                        <div class="main__info">i</div>
+                        <a class="main__link" href="#">Узнать больше</a>
                         <button class="main__btn">Заказать</button>
                     </article>
                 </div>
             </section>
-            <section>
-                <img class="third__image" src="#" alt="">
-                <img class="third__back" src="#" alt="">
-                <div class="footnote_1">
-                    <div></div>
-                    <div></div>
-                    <div>Защита от удара спереди</div>
+            <section class="third__wrap">
+                <img class="third__wrap__image" src="#" alt="">
+                <img class="third__wrap__back" src="#" alt="">
+                <div class="footnote-1">
+                    <div class="footnote-1__circle"></div>
+                    <div class="footnote-1__line"></div>
+                    <div class="footnote-1__text">Защита от удара спереди</div>
                 </div>
-                <div class="footnote_2">
-                    <div></div>
-                    <div></div>
-                    <div>Защита от удара сбоку</div>
+                <div class="footnote-2">
+                    <div class="footnote-2__circle"></div>
+                    <div class="footnote-2__line"></div>
+                    <div class="footnote-2__text">Защита от удара сбоку</div>
                 </div>
-                <div class="footnote_3">
-                    <div></div>
-                    <div></div>
-                    <div>Минимальный риск перевернуться в аварии</div>
+                <div class="footnote-3">
+                    <div class="footnote-3__circle"></div>
+                    <div class="footnote-3__line"></div>
+                    <div class="footnote-3__text">Минимальный риск перевернуться в аварии</div>
                 </div>
             </section>
         </div>
