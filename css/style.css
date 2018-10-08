@@ -1,6 +1,11 @@
 @import "header.css";
 @import "firstSection.css";
 
+
+
+
+@import "media.css";
+
 *{
     margin: 0;
     padding: 0;

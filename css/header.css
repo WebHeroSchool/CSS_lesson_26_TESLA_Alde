@@ -19,12 +19,18 @@
     justify-content: center; 
 }
 .menu__item {
+    height: 25px;
     white-space: nowrap;
     margin-right: 44px;
     font-size: 15px;
     font-weight: 600;
     color: black;
     text-decoration: none;
+    /* line-height: 20px; */
+}
+.menu__item:hover {
+    color: #E51937;
+    border-bottom: 1px solid #E51937;
 }
 .sideMenu {
     display: flex;
@@ -33,6 +39,7 @@
 
 }
 .sideMenu__item {
+    height: 25px;
     display: inline;
     margin-right: 30px;
     font-size: 15px;
@@ -40,7 +47,10 @@
     color: black;
     text-decoration: none;
 }
-
+.sideMenu__item:hover {
+    color: #E51937;
+    border-bottom: 1px solid #E51937;
+}
 .sideMenuBtn {
     /* display: none; */
     margin-right: 50px;
