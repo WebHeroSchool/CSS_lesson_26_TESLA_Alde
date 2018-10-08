@@ -1,0 +1,29 @@
+.main {
+
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 58px;
+}
+.first__wrap-title {
+    white-space: nowrap;
+    font-size: 90px;
+    font-weight: 600;
+}
+.first__wrap-text {
+    white-space: nowrap;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.first__wrap-image {
+    width:100%;
+    
+}
