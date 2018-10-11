@@ -10,27 +10,47 @@
 </head>
 <body>
     <header class="head">
-      <div class="wrap">
+      <nav class="wrap">
             <img class="logo" src="css/images/Tesla-Wordmark-Red.png" alt="TESLA"> 
-            <nav class="menu">
+            <div class="menu">
                 <a class="menu__item" href="#">Model S</a>
                 <a class="menu__item" href="#">Model X</a>
                 <a class="menu__item" href="#">Model 3</a>
                 <a class="menu__item" href="#">Roadster</a>
                 <a class="menu__item" href="#">Energy</a>
-            </nav>
-            <div class="sideMenu">
-                <a class="sideMenu__item" href="#">Магазин</a>
-                <a class="sideMenu__item" href="#">Войти</a>
-                <div class="sideMenuBtn">
-                    <div class="sideMenuBtn__item"></div>
-                    <div class="sideMenuBtn__item sideMenuBtn__item-second"></div>
-                    <div class="sideMenuBtn__item sideMenuBtn__item-third "></div>
-                </div>   
             </div>
-      </div>
+            <div class="sideMenu">
+                    <a class="sideMenu__item" href="#">Магазин</a>
+                    <a class="sideMenu__item" href="#">Войти</a>
+                    <label class="menuToggle" for="menuCheck">
+                            <div class="sideMenuBtn">
+                                    <div class="sideMenuBtn__item sideMenuBtn__item-first"></div>
+                                    <div class="sideMenuBtn__item sideMenuBtn__item-second"></div>
+                                    <div class="sideMenuBtn__item sideMenuBtn__item-third "></div>
+                            </div>
+                    </label>
+                    <input id="menuCheck" type="checkbox">
+                    <div class="wrapInnerMenu">
+                        <div class="innerMenu">
+                            <a class="innerMenu__item" href="#">Новости</a>
+                            <a class="innerMenu__item" href="#">Новые модели</a>
+                            <a class="innerMenu__item" href="#">Старые модели</a>
+                            <a class="innerMenu__item" href="#">Станции зарядки</a>
+                            <a class="innerMenu__item" href="#">Помощь</a>
+                            <a class="innerMenu__item" href="#">Контакты</a>
+                            <a class="innerMenu__item" href="#">CO2 сохранено</a>
+                            <div class="botMenu">
+                                <a class="botMenu__item" href="#">Магазин</a>
+                                <a class="botMenu__item" href="#">Войти</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+           
+        </nav>
     </header>
-    <div class="main">
+     <div class="main">
         <div class="first">
             <section class="first__wrap">
                 <h1 class="first__wrap-title">Model S</h1>
@@ -54,19 +74,22 @@
                 </article>
                 <article class="btn-block">
                     <div class="btn-block__info">
-                        <img class="btn-block__info-img" src="css/images/steering-wheel.svg" alt="">
-                        <a class="btn-block__link" href="#">ТЕСТ ДРАЙВ</a>
+                        <a class="btn-block__info-link" href="#">
+                            <div class="btn-block__info-img">
+                                ТЕСТ ДРАЙВ
+                            </div>
+                        </a>
                     </div>
                     <button class="btn-block__button">ЗАКАЗАТЬ</button>
                 </article>
             </section>    
-            <div class="down">
+           <div class="down">
                 <a href="#">
                     <img src="css/images/Vector.svg" alt="">
                 </a>
             </div>        
         </div>
-        <div class="second">
+        <!--<div class="second">
             <section class="second__wrap">
                 <h2 class="second__wrap-title">Model S</h2>
                 <img class="second__wrap-image" src="#" alt="">
@@ -168,6 +191,6 @@
                 </div>
             </section>
         </div>
-    </div>
+    </div> -->
 </body>
 </html>

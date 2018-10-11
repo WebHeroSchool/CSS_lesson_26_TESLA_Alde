@@ -29,25 +29,28 @@
 }
 
 .first__wrap-image {
-    width:100%;
+    width: 100%;
 }
 .first__info {
-    max-width: 1280px;
-    min-width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 .infoBlock {
-    display: flex;
-    align-items: center;
+    position: relative;
     width: 170px;
-    margin-right: 83px;
+    /* margin: auto; */
+    padding-left: 83px;
 }
 .infoBlock-img {
+    display: inline-block;
     margin-right: 14px;
 }
 .infoBlock-img-firstSize {
+    position: relative;
+    bottom: 8px;
     width: 46px;
     height: 35px;
 }
@@ -56,6 +59,7 @@
     height: 43px;
 }
 .infoBlock__data {
+    display: inline-block
 
 }
 .infoBlock__data-title {
@@ -71,18 +75,33 @@
 }
 .btn-block {
     display: flex;
-    margin-left: 109px;
+    align-items: center;
+    width: 430px;
+    padding-left: 108px;
 }
 .btn-block__info {
-    display: flex;
-    align-items: center;
+    /* position: relative; */
+    padding-left: 10px;
+    display: inline-block;
+    text-align: center;
 } 
-.btn-block__link {
+.btn-block__info-img {
+   line-height: 22px;
+    width: 150px;
+    height: 22px;
+    background: url(images/steering-wheel.svg) no-repeat;
+
+}
+.btn-block__info-link {
     margin-left: 11px;
     text-decoration: none;
     font-size: 13px;
     color: black;
     font-weight: bold;
+}
+.btn-block__info-img:hover {
+    color: #E51937;
+    background: url(images/steering-wheel-red.svg) no-repeat;
 }
 .btn-block__button {
     margin-left: 40px;
@@ -95,6 +114,10 @@
     font-weight: bold;
     text-align: center;
     cursor: pointer;
+}
+.btn-block__button:hover {
+    background-color: #E51937;
+    color: white;
 }
 .down {
     margin-top: 40px;

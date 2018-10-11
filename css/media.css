@@ -1,11 +1,72 @@
+@media screen and (max-width: 1050px){
+    .infoBlock {
+        padding-left: 50px;
+    }
+    .btn-block {
+        padding-left: 70px;
+    }
+}
 @media screen and (max-width: 950px) {
     .logo {
         margin-left: 0;
     }
-    .menu {
+    .sideMenuBtn {
+        margin-right: 21px;
+    }
+    .btn-block__button {
+        margin-left: 100px;
+   
+}
+@media screen and (max-width: 939px) {
+    .btn-block {
+        margin-top: 43px;
+    }
+}
+@media screen and (max-width: 835px) {
+    .btn-block {
+        padding-left: 60px;
+    }
+    .infoBlock {
+        padding-left: 30px;
+    }
+    .btn-block__button {
+        margin-left: 80px;
+   
+}
+
+@media screen and (max-width:641px) {
+      .menu {
         display: none;
     }
-    .sideMenu__item {
+     .sideMenu__item {
         display: none;
     }
+     .innerMenu {
+        width: 200px;
+    }
+    .innerMenu__item {
+        margin-left: 29px;
+    }
+    .innerMenu__item:first-child {
+        padding-top: 69px;
+    }
+    .first__wrap-title {
+        white-space: nowrap;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .first__wrap-text {
+        white-space: nowrap;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .btn-block__info-img {
+        color: #E51937;
+        background: url(images/steering-wheel-red.svg) no-repeat;
+    }
+    .btn-block__button {
+        background-color: #E51937;
+        color: white;
+    }
+    
 }
