@@ -1,9 +1,6 @@
 .head {
-
-}
-.wrap {
-    max-width: 1280px;
-    min-width: 400px;
+    /* max-width: 1280px;
+    min-width: 400px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,39 +15,31 @@
     justify-content: center; 
 }
 .menu__item {
-    /* height: 25px; */
     white-space: nowrap;
     margin-right: 44px;
     font-size: 15px;
     font-weight: 600;
+    line-height: 27px;
     color: black;
     text-decoration: none;
 }
-.menu__item:hover {
+.menu__item-active {
     color: #E51937;
-    border-bottom: 1px solid #E51937;
+    border-bottom: 2px solid #E51937;
 }
 .sideMenu {
     display: flex;
-    justify-content: center; 
+    justify-content: flex-end; 
 
 }
 .sideMenu__item {
-    display: inline;
     margin-right: 30px;
     font-size: 15px;
     font-weight: 600;
     color: black;
     text-decoration: none;
 }
-.sideMenu__item:hover {
-    color: #E51937;
-    border-bottom: 1px solid #E51937;
-}
-.menuToggle {
-    position: relative;
-    z-index: 10;
-}
+
 .sideMenuBtn {
     margin-right: 50px;
     width: 24px;
@@ -75,62 +64,4 @@
 }
 .sideMenuBtn__item-third {
     top: 16px;
-}
-.wrapInnerMenu {
-    display: none;
-    position: absolute;
-    top: -25px;
-    right: 20px;
-    min-width: 100%;
-    min-height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    
-}
-.innerMenu {
-    margin-right: -5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 292px;
-    min-height: 100vh;
-    background: #FFFFFF; 
-    z-index: 5;
-}
-.innerMenu__item:first-child {
-    padding-top: 114px;
-}
-.innerMenu__item {
-    margin-left: 46px;
-    display: block;
-    margin-bottom: 50px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #E51937;
-    text-decoration: none;
-}
-.innerMenu__item:hover {
-    color: black;
-}
-.botMenu {
-    margin-top: 123px;
-}
-.botMenu__item {
-    margin-left: 46px;
-    display: block;
-    position: relative;
-    margin-bottom: 20px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #E51937;
-    text-decoration: none;
-}
-.botMenu__item:hover {
-    color: black;
-}
-#menuCheck{
-    display: none;
-}
-#menuCheck:checked + .wrapInnerMenu {
-    display: block;
 }
