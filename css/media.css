@@ -1,9 +1,6 @@
 @media screen and (max-width: 1050px){
     .infoBlock {
-        padding-left: 50px;
-    }
-    .btn-block {
-        padding-left: 70px;
+        /* padding-left: 50px; */
     }
 }
 @media screen and (max-width: 950px) {
@@ -17,25 +14,17 @@
         margin-right: 21px;
     }
 }
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 902px) {
+    .infoWrap {
+        margin-top: 43px;
+    }
     .btn-block {
         margin-top: 43px;
     }
 }
-@media screen and (max-width: 835px) {
-    .btn-block {
-        padding-left: 60px;
-    }
-    .infoBlock {
-        padding-left: 30px;
-    }
-    .btn-block__button {
-        margin-left: 80px;
-   
-}
 
 @media screen and (max-width:641px) {
-     .sideMenu__item {
+    .sideMenu__item {
         display: none;
     }
     .first__wrap-title {
@@ -47,6 +36,22 @@
         white-space: nowrap;
         font-size: 10px;
         font-weight: 500;
+    }
+    .infoBlock__data-title {
+        font-size: 30px;
+    }
+    .infoBlock__data-title span {
+        font-size: 15px;
+    }
+    .infoBlock__data-text {
+        font-size: 10px;
+    }
+    .infoWrap {
+        white-space: nowrap;
+        padding: 0 25px;
+    }
+    .btn-block {
+        padding: 0 25px;
     }
     .btn-block__info-img {
         color: #E51937;
