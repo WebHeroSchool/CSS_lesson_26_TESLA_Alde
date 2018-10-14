@@ -10,150 +10,64 @@
 </head>
 <body>
     <header class="head">
-      <div class="wrap">
-            <img class="logo" src="css/images/Tesla-Wordmark-Red.png" alt="TESLA"> 
-            <nav class="menu">
-                <a class="menu__item" href="#">Model S</a>
-                <a class="menu__item" href="#">Model X</a>
-                <a class="menu__item" href="#">Model 3</a>
-                <a class="menu__item" href="#">Roadster</a>
-                <a class="menu__item" href="#">Energy</a>
-                <a class="menu__item" href="#">Магазин</a>
-                <a class="menu__item" href="#">Войти</a>
-                <div class="menu__btn"></div>   
-            </nav>
-      </div>
+        <img class="logo" src="css/images/Tesla-Wordmark-Red.png" alt="TESLA"> 
+        <nav class="menu">
+            <a class="menu__item menu__item-active" href="#">Model S</a>
+            <a class="menu__item" href="#">Model X</a>
+            <a class="menu__item" href="#">Model 3</a>
+            <a class="menu__item" href="#">Roadster</a>
+            <a class="menu__item" href="#">Energy</a>
+        </nav>
+        <div class="sideMenu">
+            <a class="sideMenu__item" href="#">Магазин</a>
+            <a class="sideMenu__item" href="#">Войти</a>
+            <div class="sideMenuBtn">
+                <div class="sideMenuBtn__item sideMenuBtn__item-first"></div>
+                <div class="sideMenuBtn__item sideMenuBtn__item-second"></div>
+                <div class="sideMenuBtn__item sideMenuBtn__item-third "></div>
+            </div>
+        </div>
     </header>
-    <div class="main">
+     <div class="main">
         <div class="first">
             <section class="first__wrap">
                 <h1 class="first__wrap-title">Model S</h1>
                 <p class="first__wrap-text">Добро пожаловать в будущее!</p>
-                <img class="first__wrap-back" src="#" alt="">
-                <img class="first__wrap-img" src="#" alt="">
+                <img class="first__wrap-image"src="css/images/Tesla logo + car.png" alt="">
             </section>      
             <section class="first__info">
-                <article class="main__info-block">
-                    <img class="main__info-block-img" src="#" alt="">
-                    <h4 class="main__info-block-title">2,7 сек</h4>
-                    <p class="main__info-block-text">0-100 км/час</p>
-                </article>
-                <article class="main__info-block">
-                    <img class="main__info-block-img" src="#" alt="">
-                    <h4 class="main__info-block-title">632 км</h4>
-                    <p class="main__info-block-text">запас хода</p>
-                </article>
+                <div class="infoWrap">
+                    <article class="infoBlock">
+                        <img class="infoBlock__img infoBlock__img-firstSize" src="css/images/Speed.svg" alt="">
+                        <div class="infoBlock__data">
+                            <h4 class="infoBlock__data-title">2,7 <span>сек</span></h4>
+                            <p class="infoBlock__data-text">0-100 км/час</p>
+                        </div>
+                    </article>
+                    <article class="infoBlock">
+                        <img class="infoBlock__img infoBlock__img-secondSize "src="css/images/Road icon.svg" alt="">
+                        <div class="infoBlock__data">
+                            <h4 class="infoBlock__data-title">632 <span>км</span></h4>
+                            <p class="infoBlock__data-text">запас хода</p>
+                        </div>
+                    </article>
+                </div>
                 <article class="btn-block">
-                    <div class="btn-block__item"></div>
-                    <a class="btn-block__link" href="#">Тест драйв</a>
-                    <button class="btn-block__button">Заказать</button>
+                    <div class="btn-block__info">
+                        <a class="btn-block__info-link" href="#">
+                            <div class="btn-block__info-img">
+                                ТЕСТ ДРАЙВ
+                            </div>
+                        </a>
+                    </div>
+                    <button class="btn-block__button">ЗАКАЗАТЬ</button>
                 </article>
             </section>    
-            <div class="down">
+           <div class="down">
                 <a href="#">
-                    <img src="#" alt="">
+                    <img src="css/images/Vector.svg" alt="">
                 </a>
             </div>        
-        </div>
-        <div class="second">
-            <section class="second__wrap">
-                <h2 class="second__wrap-title">Model S</h2>
-                <img class="second__wrap-image" src="#" alt="">
-            </section>
-            <section class="second__info">
-                <div class="info">
-                    <article class="info__block">
-                        <h3 class="info__block-title">Будущее вождения</h3>
-                        <p class="info__block-text">
-                            Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей.Оснащенасовременным17-дюймовымсенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую сстудиейзвукозаписи, астеклянная крышаобеспечивает просторный интерьер для каждого пассажира.
-                        </p>
-                    </article>
-                    <article class="main__info-block">
-                        <img class="main__info-block-img" src="#" alt="">
-                        <h4 class="main__info-block-title">17 дюймов</h4>
-                        <p class="main__info-block-text">Большой дисплей</p>
-                    </article>
-                    <article class="main__info-block">
-                        <img class="main__info-block-img" src="#" alt="">
-                        <h4 class="main__info-block-title">Беспроводное обновление ПО</h4>
-                        <p class="main__info-block-text">Повышенная функциональность</p>
-                    </article>
-                    <article class="main__info-block">
-                        <img class="main__info-block-img" src="#" alt="">
-                        <h4 class="main__info-block-title">894 литра</h4>
-                        <p class="main__info-block-text">Объем грузового пространства</p>
-                    </article>
-                    <article class="btn-block">
-                        <div class="btn-block__info">i</div>
-                        <a class="btn-block__link" href="#">Узнать больше</a>
-                        <button class="btn-block__button">Заказать</button>
-                    </article>
-                </div>
-            </section>
-        </div>
-        <div class="third">
-            <section class="third__info">
-                <div class="info">
-                    <article class="info__block">
-                        <h3 class="info__block-title">Самый безопасный автомобиль в мире</h3>
-                        <p class="info__block-text">
-                            Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятноститравмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.
-                        </p>
-                    </article>
-                    <article class="info__wrap">
-                        <h3 class="info__wrap-title">Оценка защиты:</h3>
-                        <div class="info__item">
-                            <p class="info__item-text">спереди</p>
-                            <img class="info__item-img" src="#" alt="">
-                        </div>
-                        <div class="info__item">
-                            <p class="info__item-text">сбоку</p>
-                            <img class="info__item-img" src="#" alt="">
-                        </div>
-                        <div class="info__item">
-                            <p class="info__item-text">сбоку<span>(стойка)</span></p>
-                            <img class="info__item-img" src="#" alt="">
-                        </div>
-                        <div class="info__item">
-                            <p class="info__item-text">водитель</p>
-                            <img class="info__item-img" src="#" alt="">
-                        </div>
-                        <div class="info__item">
-                            <p class="info__item-text">пассажир</p>
-                            <img class="info__item-img" src="#" alt="">
-                        </div>
-                    </article>
-                    <article class="fiveStar">
-                        <img class="fiveStar__img" src="#" alt="">
-                        <h3 class="fiveStar__title">5 звезд</h3>
-                        <p class="fiveStar__text">безопасности</p>
-                    </article>
-                    <article class="btn-block">
-                        <div class="btn-block__info">i</div>
-                        <a class="btn-block__link" href="#">Узнать больше</a>
-                        <button class="btn-block__button">Заказать</button>
-                    </article>
-                </div>
-            </section>
-            <section class="third__wrap">
-                <img class="third__wrap-image" src="#" alt="">
-                <img class="third__wrap-back" src="#" alt="">
-                <div class="footnote">
-                    <div class="footnote__circle"></div>
-                    <div class="footnote__line footnote__line-front"></div>
-                    <div class="footnote__text">Защита от удара спереди</div>
-                </div>
-                <div class="footnote">
-                    <div class="footnote__circle"></div>
-                    <div class="footnote__line footnote__line-side"></div>
-                    <div class="footnote__text">Защита от удара сбоку</div>
-                </div>
-                <div class="footnote">
-                    <div class="footnote__circle"></div>
-                    <div class="footnote__line footnote__line-coup"></div>
-                    <div class="footnote__text">Минимальный риск перевернуться в аварии</div>
-                </div>
-            </section>
         </div>
     </div>
 </body>

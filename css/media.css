@@ -1,0 +1,65 @@
+@media screen and (max-width: 1050px){
+    .infoBlock {
+        /* padding-left: 50px; */
+    }
+}
+@media screen and (max-width: 950px) {
+    .logo {
+        margin-left: 0;
+    }
+    .menu {
+        display: none;
+    }
+    .sideMenuBtn {
+        margin-right: 21px;
+    }
+}
+@media screen and (max-width: 902px) {
+    .infoWrap {
+        margin-top: 43px;
+    }
+    .btn-block {
+        margin-top: 43px;
+    }
+}
+
+@media screen and (max-width:641px) {
+    .sideMenu__item {
+        display: none;
+    }
+    .first__wrap-title {
+        white-space: nowrap;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .first__wrap-text {
+        white-space: nowrap;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .infoBlock__data-title {
+        font-size: 30px;
+    }
+    .infoBlock__data-title span {
+        font-size: 15px;
+    }
+    .infoBlock__data-text {
+        font-size: 10px;
+    }
+    .infoWrap {
+        white-space: nowrap;
+        padding: 0 25px;
+    }
+    .btn-block {
+        padding: 0 25px;
+    }
+    .btn-block__info-img {
+        color: #E51937;
+        background: url(images/steering-wheel-red.svg) no-repeat;
+    }
+    .btn-block__button {
+        background-color: #E51937;
+        color: white;
+    }
+    
+}
