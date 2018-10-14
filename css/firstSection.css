@@ -43,17 +43,17 @@
 .infoBlock {
     position: relative;
 }
-.infoBlock-img {
+.infoBlock__img {
     display: inline-block;
     margin-right: 14px;
 }
-.infoBlock-img-firstSize {
+.infoBlock__img-firstSize {
     position: relative;
     bottom: 8px;
     width: 46px;
     height: 35px;
 }
-.infoBlock-img-secondSize {
+.infoBlock__img-secondSize {
     width: 27px;
     height: 43px;
 }
