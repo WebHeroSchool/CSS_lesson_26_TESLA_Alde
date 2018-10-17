@@ -2,7 +2,7 @@
     position: relative;
 }
 .third__info {
-    position: relative;
+    /* position: relative; */
     box-sizing: border-box;
     width: 440px;
     height: 900px;
@@ -66,16 +66,16 @@
     /* position: relative; */
 }
 .third__wrap-image {
-    width: 935px;
+    width: 70%;
     position: absolute;
-    top: 223px;
-    left: 345px;
+    top: 24%;
+    left: 36%;
     z-index: 1;
 }
 .third__wrap-back {
-    width: 705px;
+    width: 53%;
     position: absolute;
     top: 190px;
-    left: 599px;
-    z-index: 0;;
+    left: 48%;
+    z-index: 0;
 }
