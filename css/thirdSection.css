@@ -1,5 +1,6 @@
 .third {
     position: relative;
+    /* display: flex; */
 }
 .third__info {
     /* position: relative; */
@@ -10,6 +11,9 @@
     padding-left: 52px;
     background-color: #E51937;
     color: #FFFFFF;
+}
+.info {
+    /* height: 100%; */
 }
 .info__wrap-titleThird {
     font-size: 30px;
@@ -64,18 +68,19 @@
 }
 .third__wrap {
     /* position: relative; */
+    /* width: 840px; */
 }
 .third__wrap-image {
     width: 70%;
     position: absolute;
-    top: 24%;
-    left: 36%;
+    top: 25%;
+    left: 28%;
     z-index: 1;
 }
 .third__wrap-back {
-    width: 53%;
+    width: 55%;
     position: absolute;
     top: 190px;
-    left: 48%;
+    left: 45%;
     z-index: 0;
 }

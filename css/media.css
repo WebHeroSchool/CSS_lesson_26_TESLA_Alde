@@ -1,3 +1,22 @@
+@media screen and (max-width: 1150px) {
+    .third__wrap-image {
+        width: 65%;
+        top: 25%;
+        left: 32%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .third__wrap-image {
+        width: 60%;
+        top: 36%;
+        left: 36%;
+    }
+    .third__wrap-back {
+        width: 55%;
+        top: 295px;
+        left: 45%;
+    }
+}
 @media screen and (max-width: 950px) {
     .logo {
         margin-left: 0;
