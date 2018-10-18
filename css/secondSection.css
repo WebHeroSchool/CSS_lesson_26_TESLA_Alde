@@ -1,0 +1,87 @@
+.second {
+    position: relative;
+    overflow: hidden;
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+.backImage {
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    width: 1110px;
+    background: url(images/2013-tesla-model-s-cockpit.png) no-repeat;
+    z-index: 0;
+}
+.second__wrap {
+
+}
+.second__wrap-title {
+    position: relative;
+    font-size: 70px;
+    font-weight: 600;
+    color: #E51937;
+}
+.second__info {
+    position: relative;
+    box-sizing: border-box;
+    width: 440px;
+    height: 900px;
+    padding-top: 51px;
+    padding-left: 52px;
+    background-color: #E51937;
+    color: #FFFFFF;
+}
+.info__block {
+    margin-right: 72px;
+    margin-bottom: 74px;
+    
+}
+.info__block-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.info__block-text {
+    margin-top: 11px;
+    font-size: 15px;
+}
+.footnote {
+    width: 270px;
+    height: 300px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.infoBlock__data-titleSmall {
+    font-size: 20px;
+}
+.infoBlock__img-secondBlockSize {
+    position: relative;
+    top: -20px;
+}
+.btn-secondBlock {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-block__info-imgSecond {
+    width: 180px;
+    color: #FFFFFF;
+    background: url(images/infoImage.svg) no-repeat;
+}
+.btn-block__info-imgSecond:hover {
+    color: #FFFFFF;
+    background: url(images/infoImageHover.svg) no-repeat;
+}
+.btn-block__buttonSecond {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.btn-block__buttonSecond:hover {
+    color: #E51937;
+    border: 2px solid #E51937;
+    background-color: #FFFFFF;
+}

@@ -1,6 +1,20 @@
-@media screen and (max-width: 1050px){
-    .infoBlock {
-        /* padding-left: 50px; */
+@media screen and (max-width: 1150px) {
+    .third__wrap-image {
+        width: 65%;
+        top: 25%;
+        left: 32%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .third__wrap-image {
+        width: 60%;
+        top: 36%;
+        left: 36%;
+    }
+    .third__wrap-back {
+        width: 55%;
+        top: 295px;
+        left: 45%;
     }
 }
 @media screen and (max-width: 950px) {
@@ -13,6 +27,67 @@
     .sideMenuBtn {
         margin-right: 21px;
     }
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+    .backImage {
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+    .second__info {
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+    .second__wrap-title {
+        display: none;
+    }
+    .footnote {
+        display: none;
+    }
+    .btn-secondBlock {
+        display: none;
+    }
+    .third {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .third__info {
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+    .third__wrap {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+    .third__wrap-image {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .third__wrap-back {
+        width: 100%;
+        top: 90px;
+        left: 0;
+    }
+    .info__wrap {
+        display: none;
+    }
+    .fiveStar {
+        display: none;
+    }
+    .btn-thirdBlock {
+        display: none;
+    }
+
 }
 @media screen and (max-width: 902px) {
     .infoWrap {
