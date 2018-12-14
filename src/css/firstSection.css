@@ -86,7 +86,7 @@
     line-height: 22px;
     width: 140px;
     height: 22px;
-    background: url(images/steering-wheel.svg) no-repeat;
+    background: url(../images/steering-wheel.svg) no-repeat;
 
 }
 .btn-block__info-link {
@@ -97,7 +97,7 @@
 }
 .btn-block__info-img:hover {
     color: #E51937;
-    background: url(images/steering-wheel-red.svg) no-repeat;
+    background: url(../images/steering-wheel-red.svg) no-repeat;
 }
 .btn-block__button {
     width: 160px;

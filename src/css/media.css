@@ -130,7 +130,7 @@
     }
     .btn-block__info-img {
         color: #E51937;
-        background: url(images/steering-wheel-red.svg) no-repeat;
+        background: url(../images/steering-wheel-red.svg) no-repeat;
     }
     .btn-block__button {
         background-color: #E51937;

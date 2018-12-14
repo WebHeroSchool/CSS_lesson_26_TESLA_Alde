@@ -10,7 +10,7 @@
     bottom: 0;
     left: -25px;
     width: 1110px;
-    background: url(images/2013-tesla-model-s-cockpit.png) no-repeat;
+    background: url(../images/2013-tesla-model-s-cockpit.png) no-repeat;
     z-index: 0;
 }
 .second__wrap {
@@ -70,11 +70,11 @@
 .btn-block__info-imgSecond {
     width: 180px;
     color: #FFFFFF;
-    background: url(images/infoImage.svg) no-repeat;
+    background: url(../images/infoImage.svg) no-repeat;
 }
 .btn-block__info-imgSecond:hover {
     color: #FFFFFF;
-    background: url(images/infoImageHover.svg) no-repeat;
+    background: url(../images/infoImageHover.svg) no-repeat;
 }
 .btn-block__buttonSecond {
     color: #FFFFFF;

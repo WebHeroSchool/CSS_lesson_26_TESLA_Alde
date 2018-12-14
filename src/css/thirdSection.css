@@ -36,7 +36,7 @@
 .info__item-img {
     width: 145px;;
     height: 25px;
-    background: url(images/Star.svg) space;
+    background: url(../images/Star.svg) space;
 }
 .fiveStar {
     display: flex;
