@@ -1,6 +1,4 @@
 .head {
-    /* max-width: 1280px;
-    min-width: 400px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,11 +7,18 @@
 }
 .logo {
     margin-left: 49px;
+    @media screen and (max-width: 950px) {
+        margin-left: 0;
+    }
 }
 .menu {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    @media screen and (max-width: 950px) {
+        display: none;
+    }
 }
+
 .menu__item {
     white-space: nowrap;
     margin-right: 44px;
@@ -29,7 +34,10 @@
 }
 .sideMenu {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
+    @media screen and (max-width:641px) {
+        display: none;
+    }
 
 }
 .sideMenu__item {
@@ -46,6 +54,9 @@
     height: 15px;
     position: relative;
     cursor: pointer;
+    @media screen and (max-width: 950px) {
+        margin-right: 21px;
+    }
 }
 .sideMenuBtn__item {
     display: block;
@@ -55,9 +66,6 @@
     background: #E51937;
     border-radius: 4px;
   
-}
-.sideMenuBtn__item-first {
-    /* top: -8px; */
 }
 .sideMenuBtn__item-second {
     top: 8px;

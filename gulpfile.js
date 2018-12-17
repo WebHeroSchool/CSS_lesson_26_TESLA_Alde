@@ -28,7 +28,7 @@ const cssLint = require("./stylelintrc.json");
 const paths = {
     src: {
         dir: 'src/templates',
-        styles: 'src/css/**/*css',
+        styles: ['src/css/**/*.css', '!src/css/media.css'],
         scripts: 'src/scripts/*js'
     },
     build: {
@@ -109,11 +109,14 @@ gulp.task('js', () => {
 gulp.task('css', () => {
     const plugins = [
         nested,
+        assets({
+            loadPaths: ['src/images/'],
+          }),
         postcssShort,
         postcssPresetEnv({ stage: 0}),
         autoprefixer({ browsers: ['last 2 version'] })
     ];
-    return gulp.src([paths.src.styles])
+    return gulp.src(paths.src.styles)
         .pipe(sourcemaps.init())
         .pipe(postcss(plugins))
             .pipe(concat(paths.buildNames.styles))
