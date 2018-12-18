@@ -37,20 +37,18 @@
 .sideMenu {
     display: flex;
     justify-content: flex-end;
-    @media screen and (max-width:641px) {
-        display: none;
-    }
-
 }
 .sideMenu__item {
     height: 25px;
     box-sizing: border-box;
-
     margin-right: 30px;
     font-size: 15px;
     font-weight: 600;
     color: black;
     text-decoration: none;
+    @media screen and (max-width:641px) {
+        display: none;
+    }
 }
 .sideMenu__item:hover {
     color: #E51937;

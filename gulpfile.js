@@ -171,6 +171,5 @@ gulp.task('clean', () => {
 
 gulp.task('build', ['js', 'css', 'compile', 'fonts', 'assets']);
 
-gulp.task('prod', ['build']);
 gulp.task('dev', ['build', 'watch', 'sync']);
 
