@@ -20,6 +20,7 @@
 }
 
 .menu__item {
+    height: 29px;
     white-space: nowrap;
     margin-right: 44px;
     font-size: 15px;
@@ -27,8 +28,9 @@
     line-height: 27px;
     color: black;
     text-decoration: none;
+    box-sizing: border-box;
 }
-.menu__item-active {
+.menu__item:hover {
     color: #E51937;
     border-bottom: 2px solid #E51937;
 }
@@ -41,11 +43,18 @@
 
 }
 .sideMenu__item {
+    height: 25px;
+    box-sizing: border-box;
+
     margin-right: 30px;
     font-size: 15px;
     font-weight: 600;
     color: black;
     text-decoration: none;
+}
+.sideMenu__item:hover {
+    color: #E51937;
+    border-bottom: 2px solid #E51937;
 }
 
 .sideMenuBtn {

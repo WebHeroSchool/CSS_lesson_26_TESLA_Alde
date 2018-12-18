@@ -15,16 +15,15 @@ You must have installed: `node`, `npm`, `gulp`.
 
 ## Project structure
 
+* `prod/` build directory 
 * `src/` 
     - `css/`
       - `style.css` entry-point styles (template)
-    - `images/` files using template (svg, png)
     - `fonts/`
+    - `images/` files using template (svg, png)
     - `scripts/`
       - `index.js` entry-point scripts (template)
     - `templates/`
-    - `index.hbs` entry-point (template)
-    - `test.json` handlebars context
-* `prod/` build directory 
+      - `index.hbs` entry-point (template)
 * `eslintrc.json` eslint rules
 * `stylelintrc.json` stylilint rules

@@ -157,4 +157,12 @@
 
 .down {
     margin-top: 40px;
+    height: 40px;
+    &__img {
+        width: 35px;
+        transition: 0.3s ease;
+    }
+    &__img:hover {
+        width: 40px;
+    }
 }
