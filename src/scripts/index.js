@@ -1,7 +1,6 @@
-window.onload = function() {
-    var btnScrollDown = document.querySelector('.down__img');
+let button = document.querySelector('.down__btn');
+let target = document.querySelector('.second');
 
-    let scroll = function () {return scrollBy({top: 920, left: 0, behavior: "smooth"})};
-  
-    btnScrollDown.addEventListener('click', scroll);
-}
+button.addEventListener('click', function() {
+  target.scrollIntoView({behavior: 'smooth'});
+});
